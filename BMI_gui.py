@@ -36,7 +36,7 @@ name.grid( row = 2, column = 0, sticky = W, pady = 2)
 Ename = Entry(top)
 Ename.grid(row = 2, column = 1, pady = 2)
 
-#Ename.place(x=120, y=70)
+
 
 '''
 Enamevar = StringVar()
@@ -58,20 +58,14 @@ Eyob.grid(row = 4, column = 1, pady = 2 )
 #month
 mob = Label(top, text = "month")
 mob.grid( row = 5, column = 0, sticky = W, pady = 2 )
-#Emob = Entry(top)
-#Emob.grid(row = 5, column = 1, pady = 2)
 mmb = Spinbox(top, from_ = 1, to = 12)
 mmb.grid (row = 5, column = 1, sticky = W, pady = 2)
-#r_mob = mmb.get()
-             
+            
 #day
 ddob = Label(top, text = "Day")
 ddob.grid( row = 6, column = 0, sticky = W, pady = 2)
-#Eddob = Entry(top)
-#Eddob.grid(row = 6, column = 1, pady = 2)
 ddb = Spinbox(top, from_ = 1, to = 31)
 ddb.grid (row = 6, column = 1, sticky = W, pady = 2)
-#r_dob = ddb.get()
 
 #output panel
 output = Label (top, text = "Your Results Will show Here")
